@@ -5,8 +5,8 @@
 	--card-width: 100vw;
 	--card-mobile-width: 100vw;
 	--card-height: 100vh;
-    --card-mobile-height: 100vh;
-    --card-border-radius: 0;
+	--card-mobile-height: 100vh;
+	--card-border-radius: 0;
 	--card-padding: 0;
 	--card-margin: 0;
 	--card-mobile-margin: 0;
@@ -24,9 +24,9 @@
 	--card-icons-container-top: 32px;
 	--card-icons-container-left: 32px;
 	--card-icon-border-width: 2px;
-    --card-more-button-width: 200px;
-    --card-more-button-height: 36px;
-    --card-more-button-margin: 30px auto 0 auto;
+	--card-more-button-width: 200px;
+	--card-more-button-height: 36px;
+	--card-more-button-margin: 30px auto 0 auto;
 	--card-more-button-font-size: 20px;
 	--indicator-background: rgba(255, 255, 255, 0.527);
 	--indicator-zindex: 4;
@@ -226,8 +226,8 @@ body {
 	border-radius: 50px;
 	text-transform: capitalize;
 	font-size: 24px;
-    cursor: pointer;
-    color: #fff;
+	cursor: pointer;
+	color: #fff;
 }
 
 .card .card-more-button {
@@ -284,8 +284,7 @@ body {
 	transform: translateY(500px);
 	transition: all 0.5s ease;
 	z-index: 4;
-	box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-		0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 #more_menu.active {
@@ -349,35 +348,36 @@ body {
 }
 
 #sliderIndicator {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    bottom: 10px;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 10px;
 	text-align: center;
 	z-index: var(--indicator-zindex);
 }
 
 #sliderIndicatorContainer {
-    position: relative;
-    margin: 0 auto;
-    display: inline-flex;
+	position: relative;
+	margin: 0 auto;
+	display: inline-flex;
 }
 
 .indicator {
-    position: relative;
-    top: 0;
-    width: 10px;
-    height: 10px;
-    margin: 0 6px;
-    background: var(--indicator-background);
-    border-radius: 50px;
-    border: none;
-    transition: background .5s ease-in-out;
+	position: relative;
+	top: 0;
+	width: 10px;
+	height: 10px;
+	margin: 0 6px;
+	background: var(--indicator-background);
+	border-radius: 50px;
+	border: none;
+	transition: background .5s ease-in-out;
 }
 
 .indicator.active {
-    background: var(--indicator-active-background);;
+	background: var(--indicator-active-background);
+	;
 }
 
 @media screen and (max-width: 600px) {
